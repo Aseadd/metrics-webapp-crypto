@@ -336,6 +336,10 @@ span {
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    width: 90%;
+  }
+
   .container {
     width: 90%;
   }
@@ -346,7 +350,12 @@ span {
   }
 
   .total-card {
-    width: 100%;
+    width: 80%;
+  }
+
+  .logo-img {
+    width: 30%;
+    height: 100px;
   }
 
   .main-card {
