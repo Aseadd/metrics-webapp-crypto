@@ -8,7 +8,10 @@ const Navbar = (props) => {
   const { Title } = props;
 
   return (
-    <div className="d-flex justify-content-between align-items-center navbar">
+    <div
+      className="d-flex justify-content-between align-items-center navbar"
+      data-testid="navbarTest"
+    >
       <NavLink to="/" exact style={{ textDecoration: 'none' }}>
         <h1>{Title}</h1>
       </NavLink>
