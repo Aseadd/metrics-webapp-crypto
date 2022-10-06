@@ -24,7 +24,6 @@ const getCoins = () => async (dispatch) => {
   try {
     const response = await fetch('https://api.coinstats.app/public/v1/coins');
     const data = await response.json();
-    console.log(data.coins);
     dispatch(fetchCoinsSuccess(data.coins));
   } catch (error) {
     dispatch(fetchFailure(error));
@@ -55,7 +54,6 @@ export const filterCoin = (rank) => (dispatch) => {
   const response = getCoins();
   const data = Object.values(response);
   const filteredCoins = filterRank(data, rank);
-  console.log(filteredCoins);
   if (filteredCoins) {
     dispatch(filterCoins(filteredCoins));
   }
