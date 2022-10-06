@@ -14,13 +14,14 @@ function Home() {
   };
   const filteredCoins = coins
     ? coins.filter(
-      (coin) => coin.name
-        .toLowerCase()
-        .includes(
-          name.toLowerCase()
-                || coin.symbol.toLowerCase().includes(name.toLowerCase()),
-        ) || coin.rank.toString().includes(name.toString()),
-    )
+        (coin) =>
+          coin.name
+            .toLowerCase()
+            .includes(
+              name.toLowerCase() ||
+                coin.symbol.toLowerCase().includes(name.toLowerCase()),
+            ) || coin.rank.toString().includes(name.toString()),
+      )
     : [];
   if (coins === undefined) {
     return (
@@ -30,7 +31,7 @@ function Home() {
     );
   }
   return (
-    <div>
+    <div data-testid="homeTest">
       <Navbar Title="Crypto Tracker" />
 
       <div className="container">
