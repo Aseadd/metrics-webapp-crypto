@@ -6,7 +6,11 @@
 
 ## Live Demo
 
-[Live Demo](https://deploy-preview-4--rad-licorice-2d6496.netlify.app/)
+[Live Demo](https://development--rad-licorice-2d6496.netlify.app/)
+
+## Loom Video
+
+[Loom Video](https://www.loom.com/share/032642e176544596bc8d9c14218e26c6)
 
 ## Getting Started
 
