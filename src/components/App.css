@@ -335,7 +335,6 @@ span {
 }
 
 @media screen and (max-width: 768px) {
-
   .container {
     width: 90%;
   }
@@ -364,6 +363,7 @@ span {
   .main-card span {
     font-size: 1rem;
   }
+
   .coin-details__header {
     flex-direction: column;
   }
