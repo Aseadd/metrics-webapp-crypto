@@ -10,7 +10,7 @@
 
 ## Loom Video
 
-[Loom Video](https://www.loom.com/share/032642e176544596bc8d9c14218e26c6)
+[Loom Video](https://www.loom.com/share/5118c922662f43f6a49bd815c1eddbda)
 
 ## Getting Started
 
