@@ -9,7 +9,7 @@ const fechCoins = () => ({
   type: FETCH_COINS,
 });
 
-const fetchCoinsSuccess = (payload) => ({
+export const fetchCoinsSuccess = (payload) => ({
   type: FETCH_COINS_SUCCESS,
   payload,
 });
