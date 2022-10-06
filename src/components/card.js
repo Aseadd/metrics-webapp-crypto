@@ -7,15 +7,9 @@ function CryptoCard({ coin }) {
   return (
     <Card
       border="primary"
-      style={{ width: '19rem', height: '18rem' }}
       className="card border-0 p-2 justify-content-center align-items-center"
     >
-      <Card.Img
-        variant="top"
-        src={coin.icon}
-        style={{ width: '100px', height: '100px' }}
-        className="p-5"
-      />
+      <Card.Img variant="top" src={coin.icon} className="p-5 coin-img" />
       <Card.Body className="card-detail">
         <Card.Title>
           <h1>{coin.name}</h1>

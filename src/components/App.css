@@ -94,6 +94,8 @@ span {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 19rem;
+  height: 18rem;
   border-radius: 20px;
   margin: 5px;
   background-color: var(--light-pink);
@@ -121,6 +123,11 @@ span {
   100% {
     transform: scale(1);
   }
+}
+
+.coin-img {
+  width: 100px;
+  height: 100px;
 }
 
 .card-detail {
@@ -279,13 +286,7 @@ span {
   }
 }
 
-.coin-name,
-.coin-symbol,
-.coin-price,
-.coin-volume,
-.coin-total-supply,
-.coin-market-cap,
-.coin-price-change {
+.coin-name {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -364,19 +365,44 @@ span {
     font-size: 1rem;
   }
 
+  .card {
+    width: 12rem;
+    height: 11rem;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .card-detail {
+    padding: 3px;
+  }
+
+  .card-detail h1 {
+    font-size: 1rem;
+  }
+
+  .card-detail span {
+    font-size: 0.8rem;
+  }
+
+  .card-detail p {
+    font-size: 0.8rem;
+  }
+
   .coin-details__header {
     flex-direction: column;
   }
 
-  .coin-name,
-  .coin-symbol,
-  .coin-price,
-  .coin-volume,
-  .coin-total-supply,
-  .coin-market-cap,
-  .coin-price-change {
+  .coin-name {
     display: flex;
     flex-direction: column;
     height: max-content;
+  }
+
+  .coin-name p {
+    font-size: 0.7rem;
   }
 }
