@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) ![React](https://img.shields.io/badge/-react-green)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Crypto Currency Metrics Webapp:
 
-## Available Scripts
+- A web application for individuals to check the current status of crypto market values. The data is fetched from a Coinstate API in real time.
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+[Live Demo](https://deploy-preview-4--rad-licorice-2d6496.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running follow these simple steps.
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- VIsual Studio Code.
 
-### `npm run build`
+### Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Open the terminal on your computer
+- Navigate through directories using [change directory (cd)](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10) command to where you want to clone the repository.
+- Type the following command then press ENTER:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+  git clone git@github.com:Aseadd/metrics-webapp-crypto.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The terminal will send to you information about your download.
+- Type the following command then press ENTER:
 
-### `npm run eject`
+```sh
+  cd metrics-webapp-crypto
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Type the following lists of commands and press ENTER after each command:**
+  - _Basic Setup to install necessary packages_
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+  npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- _To start the app on the server_
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+  npm start
+```
 
-## Learn More
+- **Open folder in VSC**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+  code .
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Launches the test runner
 
-### Code Splitting
+```sh
+  npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### To build the app for production
 
-### Analyzing the Bundle Size
+```sh
+  npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Built With
 
-### Making a Progressive Web App
+- **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and ES6 syntax.
+- **GitHub flow:** Correct use of Branches for deployment and features development.
+- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
+- **React:** JavaScript library.
+- **Redux:** State Management library.
+- **React-test-library:** React Testing library.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors
 
-### Advanced Configuration
+### 👤 Addis Tsega
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@Aseadd](https://github.com/Aseadd)
+- Twitter: [@AdaTsega](https://twitter.com/AdaTsega)
+- LinkedIn: [Addis Tsega](https://www.linkedin.com/in/addis-tsega/)
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions, issues, and feature requests are welcome!
 
-### `npm run build` fails to minify
+Feel free to check the [issues page](https://github.com/Aseadd/metrics-webapp-crypto/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgment
+
+- [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- [mrOmachi](https://github.com/MrOmachi) for the inspiration
+- [Matias](https://github.com/LokurasRlz) for your unwavering presence when in need
+
+## Show your support
+
+- Give a ⭐️ if you like this project!
+
+## 📝 License
+
+- This project is [MIT](./LICENSE) licensed.
