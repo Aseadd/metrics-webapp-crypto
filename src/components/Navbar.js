@@ -16,7 +16,7 @@ const Navbar = (props) => {
         <h1>{Title}</h1>
       </NavLink>
       <div className="fs-4">
-        <MdMic className="me-3" />
+        <MdMic className="me-3 ps-3" />
         <MdSettings />
       </div>
     </div>

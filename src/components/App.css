@@ -47,6 +47,7 @@ span {
   background-color: var(--light-pink);
   color: var(--white);
   border-bottom: 2px solid #3c3c3c;
+  padding-right: 40px;
 }
 
 .container {
