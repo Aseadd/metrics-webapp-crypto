@@ -1,5 +1,4 @@
 import coins from '../mocks/coins';
-import getCoins from '../mocks/getCoins';
 import * as actions from '../redux/coins/coins';
 
 describe('Testing the coins action', () => {
